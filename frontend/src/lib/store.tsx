@@ -84,7 +84,7 @@ const Ctx = createContext<AppState | null>(null);
 
 const KEY = "foodista-state";
 const TOKEN_KEY = "foodista-token";
-const API_URL = "http://localhost:5000/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 // Single fetch helper that always attaches the stored JWT as Bearer token
 export const authFetch = async (endpoint: string, options: RequestInit = {}) => {

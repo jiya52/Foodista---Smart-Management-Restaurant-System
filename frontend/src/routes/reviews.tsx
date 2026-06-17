@@ -16,7 +16,7 @@ function ReviewsPage() {
   const [dbReviews, setDbReviews] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/feedback/public")
+    fetch(`${import.meta.env.VITE_API_URL}/feedback/public`)
       .then((r) => r.json())
       .then((d) => {
         if (d.success && d.data && d.data.reviews) {
