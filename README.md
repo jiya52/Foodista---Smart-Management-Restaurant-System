@@ -74,6 +74,123 @@ https://github.com/jiya52/Foodista---Smart-Management-Restaurant-System
 * Render
 * Railway
 
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Foodista.git
+cd Foodista
+```
+
+---
+
+### 2️⃣ Frontend Setup
+
+Navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file (if required):
+
+```env
+VITE_API_URL=your_backend_url
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Frontend will run on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+### 3️⃣ Backend Setup
+
+Open a new terminal and navigate to the server directory:
+
+```bash
+cd server
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file:
+
+```env
+PORT=5000
+
+DB_HOST=your_railway_host
+DB_USER=your_railway_user
+DB_PASSWORD=your_railway_password
+DB_NAME=your_database_name
+```
+
+Start the backend server:
+
+```bash
+npm start
+```
+
+Backend will run on:
+
+```text
+http://localhost:5000
+```
+
+---
+
+### 4️⃣ Database Setup
+
+Import the provided SQL file into MySQL:
+
+```bash
+foodista.sql
+```
+
+Using MySQL Workbench:
+
+1. Connect to your MySQL server.
+2. Open the SQL script.
+3. Execute the script.
+4. Verify that all tables and sample data are created successfully.
+
+---
+
+### 5️⃣ Run the Application
+
+Make sure:
+
+✅ MySQL Database is running  
+✅ Backend server is running  
+✅ Frontend server is running
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+to access Foodista.
+
 ---
 
 ## 🌟 Learning Outcomes
