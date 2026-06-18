@@ -35,16 +35,6 @@ https://github.com/jiya52/Foodista---Smart-Management-Restaurant-System
 * Order confirmation
 * Reviews and feedback submission
 
-### 🛠️ Admin Dashboard
-
-* Dashboard overview
-* Manage bookings
-* Manage dining tables
-* Track orders
-* Monitor customer activities
-* Collection and analytics section
-* Appearance management
-
 ### 🎨 User Experience
 
 * Responsive design
